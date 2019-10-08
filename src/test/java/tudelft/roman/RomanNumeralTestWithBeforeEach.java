@@ -9,8 +9,7 @@ public class RomanNumeralTestWithBeforeEach {
     private RomanNumeral roman;
 
     @BeforeEach
-    public void initialize() {
-        this.roman = new RomanNumeral();
+    public void initialize() { this.roman=new RomanNumeral();
     }
 
     @Test
